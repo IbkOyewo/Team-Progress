@@ -6,3 +6,9 @@
 body{
 margin: 0;
 }
+
+.workflow{
+    background: url("https://cdn.glitch.com/c20ca04d-8917-46db-b51d-424d643431c8%2Fcb9164eb-7b84-4893-9f1a-16b988731e7c.image.png?v=1632320005622");
+    background-size: cover;
+    background-position: center;
+}
