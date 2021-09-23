@@ -389,3 +389,20 @@ footer {
   color: #474747;
   background-color: #e5e5e5;
 }
+
+@media screen and (max-width:573px) {
+ .navbar-1{
+    height:24%;
+  }
+
+  .join{
+    padding-bottom: 10px;
+  }
+  .nav-logo img{
+    height: 55%;
+  }
+
+  .first-section h1{
+    padding-top: 187px;
+  }
+}
