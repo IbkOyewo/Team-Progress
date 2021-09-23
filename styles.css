@@ -5,6 +5,324 @@
 
 body {
   margin: 0;
+  overflow-x: hidden;
+}
+
+.header-class {
+  display: flex;
+  padding: 10px 25px;
+  background-color: #772D8B;
+  font-size: 12px;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.header-class img {
+  width: 12px;
+  height: 12px;
+  margin-left: 10px;
+}
+
+
+.arrow-option {
+  margin-right: 160px;
+  align-content: center;
+  margin-top: 6px;
+}
+
+.find-out {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar-1 {
+  justify-content: space-between;
+  align-items: center;
+  background-color: #772D8B;
+  height:50px;
+  margin:auto;
+}
+
+.nav-icons {
+  justify-content: space-between;
+  padding-left: 28px;
+}
+
+.join {
+  color:orange;
+  padding-right: 700px;
+}
+
+.how {
+  color:rgb(255, 255, 255);
+  margin-right: 10px;
+}
+
+.navbar-2 {
+  background-color: #00000042;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  height: 89px;     
+}
+
+.nav-logo img{
+  height: 100%;
+  padding-left: 10px;
+}
+
+.navbar-collapse {
+  flex-grow: inherit;
+}
+
+.text {
+  line-height: 20px;
+  color: white;
+}
+
+.number {
+  color: #FFC42D;
+  cursor: pointer;
+}
+
+.nav-links button {
+  border-radius: 8px;
+  background-color: 
+  #EE2B7A;
+  border-style: none;
+  padding-left: 7px;
+  margin-right: 500px;
+}
+
+.first-section {
+  background-image: url(/images/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 134px;
+}
+
+.first-section .heading {
+  font-size: 68px;
+}
+
+.first-section h1 {
+  color:white;
+}
+
+.we-provide {
+  padding: 90px 30px;
+  margin-left: 68px;
+}
+
+.we-provide h1 {
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.login-bar {
+  background-color: #373737C9;
+  margin-right: 120px;
+  padding: 8px 40px 36px 40px;
+  border-radius: 14px;
+  width:340px;
+}
+
+.login-text {
+  font-weight: bold;
+}
+
+input[type=text] {
+  height: 30px;
+  border-radius: 4px;
+  padding: 6px;
+  color: #373737C9 ;
+}
+
+input[type=password] {
+  height: 30px;
+  border-radius: 4px;
+  padding: 6px;
+  color: #373737C9 ;
+}
+
+.form-bar p {
+  font-size: 10px;
+  color: #B6C4DA;
+  margin-left: 160px;
+  cursor: pointer;
+}
+
+.login-btn button{
+  background: #EE2B7A;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.dont-have-acct {
+  font-size: small;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.sign-up {
+  color:#EE2B7A;
+  cursor: pointer;
+}
+
+.section-bar {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.about {
+  color: #995AAA;
+  font-weight: bold;
+  margin: 0;
+  font-size: small;
+}
+
+.about-axet-text {
+  color: #474747;
+  margin: 0;
+  font-size: 14px;
+}
+
+.about-axet {
+  color:#995AAA;
+  font-weight: 600;
+}
+
+.second-section {
+  padding-top: 80px;
+}
+
+.second-section p {
+  line-height: 30px;
+  color: #000000;
+  font-size: 14px;
+}
+
+.about-image {
+  width:fit-content;
+}
+
+.who-we-are {
+  color: #474747;
+  font-size: 50px;
+  font-weight:300;
+  margin-top:10px;
+}
+
+.content {
+  color:#000000;
+  margin-top:0;
+  line-height:200%;
+  font-size: 12px;
+}
+
+.service-provide {
+  color: #995AAA;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 80px;
+}
+
+.our-services {
+  font-size: 50px;
+  font-weight: 300;
+  color: #464343;
+}
+
+.our-service-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+.support-bar, 
+.construction-bar,
+.crane-bar,
+.crushing-bar {
+  box-shadow: 2px 4px 26px rgba(0, 0, 0, 0.07);
+}
+
+.support-bar img {
+  width: 130px;
+  height: 130px;
+}
+
+.support-bar p {
+  color: #565656;
+  margin-top: 40px;
+}
+
+.support-text p {
+  font-size: 12px;
+  color: #565656;
+  line-height: 20px;
+}
+
+.construction-bar img {
+  width: 130px;
+  height: 130px;
+}
+
+.construction-bar p {
+  color: #565656;
+  margin-top: 40px;
+}
+
+.construction-text p {
+  font-size: 12px;
+  color: #565656;
+  line-height: 20px;
+}
+
+.crane-bar img {
+  width: 130px;
+  height: 130px;
+}
+
+.crane-bar p {
+  color: #565656;
+  margin-top: 40px;
+}
+
+.crane-text p {
+  font-size: 12px;
+  color: #565656;
+  line-height: 20px;
+}
+
+.crushing-bar img {
+  width: 130px;
+  height: 130px;
+}
+
+.crushing-bar p {
+  color: #565656;
+  margin-top: 40px;
+}
+
+.crushing-text p {
+  font-size: 12px;
+  color: #565656;
+  line-height: 20px;
 }
 
 .workflow {
@@ -61,7 +379,6 @@ footer {
 .col-12 p {
   font-size: 11px;
   line-height: 22px;
-  color: #e3dee4;
 }
 
 .info {
